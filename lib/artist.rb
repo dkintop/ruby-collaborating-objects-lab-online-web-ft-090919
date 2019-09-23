@@ -65,7 +65,7 @@ class Artist
     #artist_songs = Song.all.select do|song|
       #song.artist == self
      # Song.find_by_artist(self)
-    end 
+    #end 
     #Pry.config.input = STDIN
     #Pry.config.output = STDOUT
     #binding.pry
