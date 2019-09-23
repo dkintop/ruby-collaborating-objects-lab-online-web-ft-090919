@@ -60,17 +60,17 @@ class Artist
     @@all 
   end 
   
-  #def songs 
-   # binding.pry
+  def songs 
+    binding.pry
     #artist_songs = Song.all.select do|song|
       #song.artist == self
-   #   Song.find_by_artist(self)
-    #end 
+     # Song.find_by_artist(self)
+    end 
     #Pry.config.input = STDIN
     #Pry.config.output = STDOUT
     #binding.pry
     #artist_songs
-  #end 
+  end 
   
   
   
