@@ -61,7 +61,7 @@ class Artist
   end 
   
   def songs 
-    binding.pry
+    #binding.pry
     #artist_songs = Song.all.select do|song|
       #song.artist == self
       Song.find_by_artist(self)
